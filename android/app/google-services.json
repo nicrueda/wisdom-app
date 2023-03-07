@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1062076287247",
+    "project_id": "wisdom-quiz-app",
+    "storage_bucket": "wisdom-quiz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062076287247:android:85a2e27c341d9e85cb167a",
+        "android_client_info": {
+          "package_name": "com.nicrueda.wisdom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062076287247-a8f0kgvlesnk027ified672h29c73rn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nicrueda.wisdom",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1062076287247-n4b3lgj8eoqb0l1pffagers37btikdt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdxvx2e6vm_iCLYy0iFQTCYKWwSDWDy-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062076287247-n4b3lgj8eoqb0l1pffagers37btikdt9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1062076287247-vtvsblehpi747h03lslrfepe82celgse.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nicrueda.wisdom"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
