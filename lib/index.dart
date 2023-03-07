@@ -10,8 +10,8 @@ export '/add_quiz_questions/add_quiz_questions_widget.dart'
     show AddQuizQuestionsWidget;
 export '/mis_clases/mis_clases_widget.dart' show MisClasesWidget;
 export '/profile_page/profile_page_widget.dart' show ProfilePageWidget;
-export '/login_page/login_page_widget.dart' show LoginPageWidget;
 export '/register_page/register_page_widget.dart' show RegisterPageWidget;
+export '/login_page/login_page_widget.dart' show LoginPageWidget;
 export '/complete_profile/complete_profile_widget.dart'
     show CompleteProfileWidget;
 export '/edit_profile/edit_profile_widget.dart' show EditProfileWidget;

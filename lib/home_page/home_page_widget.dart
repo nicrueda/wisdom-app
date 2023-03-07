@@ -293,60 +293,68 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                 ),
                                               ),
                                             ),
-                                            Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      20.0, 20.0, 0.0, 0.0),
-                                              child: Column(
-                                                mainAxisSize: MainAxisSize.max,
-                                                mainAxisAlignment:
-                                                    MainAxisAlignment.start,
-                                                crossAxisAlignment:
-                                                    CrossAxisAlignment.start,
-                                                children: [
-                                                  Text(
-                                                    'Técnicas de conteo',
-                                                    style: FlutterFlowTheme.of(
-                                                            context)
-                                                        .subtitle1
-                                                        .override(
-                                                          fontFamily: 'Technor',
-                                                          useGoogleFonts: false,
+                                            Align(
+                                              alignment: AlignmentDirectional(
+                                                  0.0, 0.0),
+                                              child: Padding(
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        20.0, 20.0, 0.0, 0.0),
+                                                child: Column(
+                                                  mainAxisSize:
+                                                      MainAxisSize.min,
+                                                  mainAxisAlignment:
+                                                      MainAxisAlignment.start,
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.start,
+                                                  children: [
+                                                    Text(
+                                                      'Técnicas de conteo',
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .subtitle1
+                                                              .override(
+                                                                fontFamily:
+                                                                    'Technor',
+                                                                useGoogleFonts:
+                                                                    false,
+                                                              ),
+                                                    ),
+                                                    Align(
+                                                      alignment:
+                                                          AlignmentDirectional(
+                                                              0.0, 0.0),
+                                                      child: Padding(
+                                                        padding:
+                                                            EdgeInsetsDirectional
+                                                                .fromSTEB(
+                                                                    0.0,
+                                                                    6.0,
+                                                                    0.0,
+                                                                    0.0),
+                                                        child: AutoSizeText(
+                                                          'Aprende todo lo que necesitas\nsaber sobre las permutaciones,\ncombinaciones, principio \naditivo, multiplicativo, etc.',
+                                                          textAlign:
+                                                              TextAlign.start,
+                                                          style: FlutterFlowTheme
+                                                                  .of(context)
+                                                              .bodyText1
+                                                              .override(
+                                                                fontFamily:
+                                                                    'Supreme',
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .normal,
+                                                                useGoogleFonts:
+                                                                    false,
+                                                                lineHeight: 1.2,
+                                                              ),
                                                         ),
-                                                  ),
-                                                  Align(
-                                                    alignment:
-                                                        AlignmentDirectional(
-                                                            0.0, 0.0),
-                                                    child: Padding(
-                                                      padding:
-                                                          EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  0.0,
-                                                                  6.0,
-                                                                  0.0,
-                                                                  0.0),
-                                                      child: AutoSizeText(
-                                                        'Aprende todo lo que necesitas\nsaber sobre las permutaciones,\ncombinaciones, principio \naditivo, multiplicativo, etc.',
-                                                        textAlign:
-                                                            TextAlign.start,
-                                                        style: FlutterFlowTheme
-                                                                .of(context)
-                                                            .bodyText1
-                                                            .override(
-                                                              fontFamily:
-                                                                  'Supreme',
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .normal,
-                                                              useGoogleFonts:
-                                                                  false,
-                                                              lineHeight: 1.2,
-                                                            ),
                                                       ),
                                                     ),
-                                                  ),
-                                                ],
+                                                  ],
+                                                ),
                                               ),
                                             ),
                                           ],

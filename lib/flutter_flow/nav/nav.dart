@@ -144,14 +144,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   : ProfilePageWidget(),
             ),
             FFRoute(
-              name: 'loginPage',
-              path: 'loginPage',
-              builder: (context, params) => LoginPageWidget(),
-            ),
-            FFRoute(
               name: 'registerPage',
               path: 'registerPage',
               builder: (context, params) => RegisterPageWidget(),
+            ),
+            FFRoute(
+              name: 'loginPage',
+              path: 'loginPage',
+              builder: (context, params) => LoginPageWidget(),
             ),
             FFRoute(
               name: 'completeProfile',
